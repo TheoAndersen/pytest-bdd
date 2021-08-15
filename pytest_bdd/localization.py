@@ -91,4 +91,20 @@ STEP_PREFIXES = {
         ("Und ", None),
         ("Aber ", None),
     ],
+    "da": # Danish
+    [
+        ("Egenskab", types.FEATURE),
+        ("Feature: ", types.FEATURE),
+        ("Abstrakt Scenario: ", types.SCENARIO_OUTLINE),
+        # EXAMPLES_VERTICAL?
+        ("Eksempler:", types.EXAMPLES),
+        ("Scenarie: ", types.SCENARIO),
+        ("Baggrund:", types.BACKGROUND),
+        ("Givet ", types.GIVEN),
+        ("Når ", types.WHEN),
+        ("Så ", types.THEN),
+        ("@", types.TAG),
+        ("Og ", None),
+        ("Men ", None),
+    ],
 }
